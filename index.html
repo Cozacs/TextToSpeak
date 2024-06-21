@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Texto para Fala</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="red"></div>
+    <img class="vinyl" src="./assets/Vinyl.png" alt="Vinyl Disc" />
+    <div class="container">
+        <h1>Conversor de Texto para Fala</h1>
+        <div id="align">
+            <div id="entrada">
+                <div id="adjust">
+                    <p id="voz">Seleciona a voz:</p>
+                    <select id="selecao-voz"></select>
+                </div>
+                <textarea placeholder="Digite alguma coisa..." id="entrada-de-texto"></textarea>
+                <div class="fix">
+                    <div class="acao-box">
+                        <label for="upload-arquivo" id="arquivo-label">Enviar arquivo</label>
+                        <input type="file" id="upload-arquivo" accept=".txt">
+                    </div>
+                    <div class="acao-box">
+                        <button id="ouvir-btn">Ouvir</button>
+                    </div>
+                    <div class="acao-box">
+                        <button id="baixar-texto-btn">Baixar Texto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
